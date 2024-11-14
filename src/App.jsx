@@ -16,12 +16,9 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app-wrapper">
       <InputField task={task} setTask={setTask} /> {/* Pass task and setTask */}
       <Button task={task} onAddTask={handleAddTask} />{" "}
-      <ol>
-        <li>{task}</li>
-      </ol>
     </div>
   );
 }
