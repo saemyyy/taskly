@@ -1,34 +1,42 @@
+* {
+  font-family: "Fira Code";
+}
+
 body {
-    background-color: #1d1e2c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  background-color: #1d1e2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #f8e5ee;
 }
 
 input {
-    background-color: #f8e5ee;
-    border-radius: 10px;
-    border: none;
-    width: 20vw;
-    height: 50px;
-    text-align: center;
+  background-color: #f8e5ee;
+  border-radius: 10px;
+  border: none;
+  width: 20vw;
+  height: 50px;
+  text-align: center;
 }
 
 button {
-    background-color: #ff3562;
-    color: #f8e5ee;
-    border-radius: 10px;
-    border: none;
-    width: 80%;
-    height: 50px;
+  background-color: #ff3562;
+  color: #f8e5ee;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  height: 50px;
 }
 
 .app-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
 }
