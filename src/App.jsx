@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Index.css";
 import Button from "./components/AddButton";
 import InputField from "./components/InputField";
+import Task from "./components/Tasks";
 
 function App() {
   const [task, setTask] = useState(""); // State to hold the task
@@ -13,6 +14,7 @@ function App() {
     } else {
       console.log("Enter a task");
     }
+    console.log(Task.TaskList);
   };
 
   return (
