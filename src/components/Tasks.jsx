@@ -1,5 +1,7 @@
+import value from "./InputField";
+
 const Task = {
-  TaskList: [14],
+  TaskList: [value],
 };
 
 export default Task;
